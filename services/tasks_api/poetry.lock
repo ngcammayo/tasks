@@ -327,6 +327,20 @@ files = [
 colors = ["colorama (>=0.4.6)"]
 
 [[package]]
+name = "mangum"
+version = "0.17.0"
+description = "AWS Lambda support for ASGI applications"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "mangum-0.17.0-py3-none-any.whl", hash = "sha256:f00be705605bc4793958df62e4d249abf58d254c39d90bb410d069570206f4a2"},
+    {file = "mangum-0.17.0.tar.gz", hash = "sha256:5b4e26375e12eed051687670466d17968f8b74beecaca432edd4eb4127f78509"},
+]
+
+[package.dependencies]
+typing-extensions = "*"
+
+[[package]]
 name = "markdown-it-py"
 version = "3.0.0"
 description = "Python port of markdown-it. Markdown parsing, done right!"
@@ -783,4 +797,4 @@ standard = ["colorama (>=0.4)", "httptools (>=0.5.0)", "python-dotenv (>=0.13)",
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "26dcbdba03f5b789046805d3c5623198e5c0f95329e74cbae473c8c90e9a4eaa"
+content-hash = "cded0b402a7d50abf5c3456b7b2bc4e492083573fb44f26006a5b19a1ea1ad28"
