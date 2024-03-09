@@ -2,7 +2,7 @@ import pytest
 from fastapi import status
 from starlette.testclient import TestClient
 
-from main import app
+from web_app.main import app
 
 
 @pytest.fixture
