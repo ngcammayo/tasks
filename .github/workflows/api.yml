@@ -35,7 +35,7 @@ jobs:
       - name: Install dependencies
         run: poetry install --no-root
       - name: Run tests
-        run: poetry run pytest tests.py --cov=./ --cov-report=xml
+        run: poetry run python -m pytest --junitxml=report.xml --cov=./ --cov-report=xml tests/unit tests/integration
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3
         with:
