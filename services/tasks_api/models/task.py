@@ -14,4 +14,3 @@ class Task(BaseModel):
     title: str
     status: TaskStatus
     owner: str
-
